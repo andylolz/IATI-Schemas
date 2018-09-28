@@ -766,8 +766,8 @@
     </xsd:annotation>
   </xsd:attribute>
 
-  <!-- documentLinkWithReceipientCountry extends documentLinkBase to include the receipient-country sub-element, which is used within the iati-organisations schema -->
-  <xsd:complexType name="documentLinkWithReceipientCountry">
+  <!-- documentLinkWithRecipientCountry extends documentLinkBase to include the receipient-country sub-element, which is used within the iati-organisations schema -->
+  <xsd:complexType name="documentLinkWithRecipientCountry">
     <xsd:complexContent>
       <xsd:extension base="documentLinkBase">
         <xsd:sequence>
